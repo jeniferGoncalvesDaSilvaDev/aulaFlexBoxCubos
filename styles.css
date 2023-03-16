@@ -1,0 +1,33 @@
+body{
+    background-color: darkgreen;
+}
+.container{
+    background-color: black;
+    height: 540px;
+    width:850px;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    /*flex-wrap: wrap;*/
+    margin-top:50px;
+    margin-left:400px;
+    padding: 20px;
+   
+}
+.item1 , .item2 , .item3,.item4{
+    background-color: rgba(0, 0, 255, 0.904);
+    height: 100px;
+    width: 100px;
+    border-radius: 7px;
+    margin: 10px;
+    border: 2px solid purple;
+    margin-top:40px;
+}
+.item1>h1, .item2>h1, .item3>h1, .item4>h1{
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10px;
+    display:flex;
+    align-self: center;
+}
