@@ -4,7 +4,7 @@ flex-direction: row-padrão:
 .row-reverse
 .column-reverse
 .column 
-justify-content: eixo horizontal ou eixo principal
+justify-content: eixo vertical ou eixo transverso
 .flex-start
 .flex-end
 .center
@@ -15,7 +15,7 @@ justify-content: eixo horizontal ou eixo principal
 .end
 .right
 .left
-align-items: eixo vertical ou eixo transverso
+align-items: eixo horizontal ou eixo principal
 .flex-start
 .flex-end
 .stretch-estica seus elementos, a depender se tirar a altura ou a largura
